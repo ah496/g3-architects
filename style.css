@@ -104,20 +104,20 @@ ul {
 
 /* Features */
 
-.feature{
+ .feature{
     display: flex;
     margin-top: 50px;
-    padding: 50px 30px;
-    /* justify-content: center; */
-    background-color: rgb(239, 240, 240);
-   
-    
+    padding: 50px 100px;
+    justify-content: center; 
+    background-color: rgb(239, 240, 240); 
 }
+
+
 .feature-images{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin-left: 50px;
-    grid-gap: 10px;  
+    
+  
 }
 
 .image img{
@@ -126,7 +126,7 @@ ul {
     padding: 10px 10px;
     
     
-}
+} 
 
 .Feature-title{
     font-size: 45px;
@@ -134,10 +134,8 @@ ul {
     color: #727272;
 }
 
-.feature-text{
-    margin: 200px;
-    justify-content: center;
-    
+.feature-info{
+    margin: 50px;
 }
 
 .feature-title{
@@ -160,9 +158,113 @@ ul {
     border: none;
     margin: 10px;
 }
+/* architecs-banner style */
+
+.architecs-banner{
+    display: flex;
+    padding: 50px 200px;
+    gap: 90px;
+}
+.architec-info{
+    padding: 10px 20px;
+}
+
+.architec-image img{
+    height: 602px;
+    left: 872px;
+}
+
+.architec-title{
+    font-size: 45px;
+}
+
+.architec-btn{
+    display: grid;
+    padding: 20px 20px;
+    font-size: 50px;
+    background-color: #FF900E;
+    margin-top: 0px;
+    
+}
 
 
+.boxs{
+    display: flex;
+    justify-content:space-around;
+    margin: 120px;
+    
+}
 
+
+.box{
+    border: 1px solid #FF900E;
+    padding: 10px 10px;
+    column-gap: 40px;
+    justify-content: center;
+}
+.icon-text{
+    margin-left: 180px;
+    
+    
+}
+.box-img{
+    margin: 35px;
+}
+.box-price{
+    font-size: 45px;
+    color: #424242;
+    margin: 25px;
+}
+/*--------------------
+    Sponspors style
+--------------------- */
+
+.sponspor-text{
+    text-align: center;
+    margin: 20px;
+}
+.sponspor-images{
+    display: flex;
+    justify-content: space-around;
+    margin: 60px;
+    
+    
+}
+
+.sponspor-title{
+    font-size: 30px;
+}
+
+.sponspor-description{
+    margin: 10px;
+}
+
+/* footer style */
+.footer{
+    text-align: center;
+    border-radius: 5px;
+    
+}
+
+
+/* footer style */
+
+.footer-text{
+    padding: 30px;
+    margin: 200px;
+    background-color: #FFF4E7;
+
+ /* Responsive style    */
+
+}
+@media screen and (max-width:576px) {
+    .boxs, .feature, .footer{
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px 20px;
+    }
+    
+}
 
 
 
